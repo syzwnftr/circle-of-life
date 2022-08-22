@@ -66,3 +66,8 @@
     left: -25px;
     z-index: -1;
 }
+
+.h-telno.hide, 
+.h-circle.hide {
+    display: none;
+}
