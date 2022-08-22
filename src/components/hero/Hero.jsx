@@ -26,9 +26,7 @@ function Hero() {
                 <h2 className="h-desc">Give away the things you don’t need anymore and start the circle of life</h2>
             </div>
 
-            <div className="h-graphic">
-                <img src={hero} alt="" className="h-img" />
-            </div>
+            <img src={hero} alt="" className="h-img" />
         </div>
     )
 }
