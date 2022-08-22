@@ -9,10 +9,14 @@ function Hero() {
             <div className="h-header">
                 <h1 className='h-logo'>cirle of life.</h1>
                 <div className="h-circle-wrapper">
+                    <p className="h-telno hide">+7 495018-37-45</p>
                     <div className="h-circle">
                         <img src={Twitter} alt="" className='h-icon' />
                     </div>
                     <div className="h-circle">
+                        <img src={Chat} alt="" className='h-icon' />
+                    </div>
+                    <div className="h-circle hide">
                         <img src={Chat} alt="" className='h-icon' />
                     </div>
                 </div>
