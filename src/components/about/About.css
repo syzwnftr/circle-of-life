@@ -6,6 +6,7 @@
     /* width: 300px; */
     padding: 0 18px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .a-desc {
@@ -26,12 +27,12 @@
     text-transform: uppercase;
     color: #B0AFAA;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 10px;
 }
 
 .a-item {
-    font-size: 13px;
+    font-size: 14px;
     width: 150px;
     font-weight: 600;
     color: #4D4B4B;
