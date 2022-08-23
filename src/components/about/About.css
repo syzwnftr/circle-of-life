@@ -1,0 +1,38 @@
+.a {
+    margin-top: 30px;
+}
+
+.a-text {
+    /* width: 300px; */
+    padding: 0 18px;
+    text-align: center;
+}
+
+.a-desc {
+    color: #4D4B4B;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.a-box {
+    /* outline: 1px solid black; */
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-title {
+    text-transform: uppercase;
+    color: #B0AFAA;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.a-item {
+    font-size: 13px;
+    width: 150px;
+    font-weight: 600;
+    color: #4D4B4B;
+}
