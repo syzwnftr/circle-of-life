@@ -19,16 +19,20 @@
     /* outline: 1px solid black; */
     display: flex;
     margin-top: 30px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 28px;
 }
+
+/* .a-box > * {
+    outline: 1px solid black;
+} */
 
 .a-title {
     text-transform: uppercase;
     color: #B0AFAA;
     font-weight: 700;
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 13px;
 }
 
 .a-item {
@@ -36,4 +40,5 @@
     width: 150px;
     font-weight: 600;
     color: #4D4B4B;
+    margin-bottom: 15px;
 }
