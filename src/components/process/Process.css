@@ -20,7 +20,7 @@
 
 .p-box {
     /* outline: 1px solid black; */
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 
 .p-box:last-child {
@@ -49,14 +49,14 @@
     font-size: 11px;
     letter-spacing: 2px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .p-heading {
-    margin-bottom: 10px;
     color: #282724;
     margin: 0;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 20px;
 }
 
@@ -65,8 +65,20 @@
     font-size: 15px;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #61605E;
+}
+
+.p-desc.lm {
+    margin-bottom: 10px;
+}
+
+.p-icon {
+    width: 25px;
+}
+
+.p-icon.suit {
+    width: 20px;
 }
 
 .p-bold {
