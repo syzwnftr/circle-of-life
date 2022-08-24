@@ -1,0 +1,106 @@
+.f {
+    background-color: #E7B372;
+}
+
+.f-wrapper {
+    padding: 50px 18px;
+}
+
+.f-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #111111;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.f-btn-wrapper {
+    /* outline: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.f-btn {
+    width: 90px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    margin: 6px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+.f-btn.no {
+    background-color: black;
+    color: white;
+}
+
+.f-item {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.f-img {
+    width: 60px;
+}
+
+
+.f-info {
+    /* outline: 1px solid black; */
+    width: 250px;
+    margin-left: 20px;
+}
+
+.f-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.f-info-wrapper > * {
+    /* outline: 1px solid black; */
+}
+
+.f-circle {
+    outline: 2px solid black;
+    flex-basis: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-num {
+    font-weight: bold;
+}
+
+.f-subhead {
+    margin-left: 20px;
+}
+
+.f-badge {
+    width: 150px;
+}
+
+.f-badge-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.f-desc {
+    /* outline: 1px solid black; */
+    width: 150px;
+    font-size: 14px;
+}
