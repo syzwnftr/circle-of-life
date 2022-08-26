@@ -1,5 +1,5 @@
 .p {
-    margin-top: 60px;
+    margin: 60px 0 80px 0;
 }
 
 .p-title-wrapper {
@@ -19,8 +19,8 @@
 }
 
 .p-box {
-    /* outline: 1px solid black; */
-    margin-bottom: 110px;
+    /* outline: 1px solid black;     */
+    margin-bottom: 80px;
 }
 
 .p-box:last-child {
