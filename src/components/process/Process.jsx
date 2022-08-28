@@ -1,9 +1,9 @@
 import './Process.css';
-import Take from '../../img/take.gif'
-import Send from '../../img/send.gif'
-import Improve from '../../img/improve.gif'
-import Sofa from '../../img/sofa.png'
-import Suit from '../../img/suit.png'
+import Take from '../../img/take.gif';
+import Send from '../../img/send.gif';
+import Improve from '../../img/improve.gif';
+import Sofa from '../../img/sofa.png';
+import Suit from '../../img/suit.png';
 
 function Process() {
     return (
@@ -68,3 +68,4 @@ function Process() {
 }
 
 export default Process;
+
