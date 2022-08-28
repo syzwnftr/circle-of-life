@@ -2,7 +2,6 @@
     /* outline: 1px solid black; */
     position: relative;
     overflow: hidden;
-    height: 60vh;
 }
 
 .h-header {
@@ -49,7 +48,6 @@
     width: 306px;
     margin-top: 30px;
     padding: 0 18px;
-    z-index: 999;
 }
 
 .h-desc {
@@ -60,14 +58,9 @@
 }
 
 .h-img {
-    /* outline: 1px solid red; */
-    max-width: 130%;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    top: 180px;
-    left: -20px;
-    z-index: -1;
+    /* outline: 1px solid black; */
+    width: 120%;
+    margin-top: 20px;
 }
 
 .h-telno.hide, 
