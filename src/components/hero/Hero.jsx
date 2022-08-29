@@ -24,6 +24,7 @@ function Hero() {
 
             <div className="h-text">
                 <h2 className="h-desc">Give away the things you don’t need anymore and start the circle of life</h2>
+                <button className="h-btn">Start the circle</button>
             </div>
 
             <div className="h-img-wrapper">
