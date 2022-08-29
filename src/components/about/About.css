@@ -24,6 +24,10 @@
     padding: 0 28px;
 }
 
+.a-box:last-child {
+    margin-bottom: 100px;
+}
+
 /* .a-box > * {
     outline: 1px solid black;
 } */
@@ -41,4 +45,34 @@
     font-weight: 600;
     color: #4D4B4B;
     margin-bottom: 15px;
+}
+
+.a-item:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .a-text {
+        padding: 0 30px;
+    }
+    
+    .a-desc {
+        font-size: 24px;
+    }
+
+    .a-box {
+        /* outline: 1px solid black; */
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+
+    .a-title {
+        font-size: 15px;
+    }
+
+    .a-item {
+        /* outline: 1px solid black; */
+        font-size: 15px;
+    }
+
 }
