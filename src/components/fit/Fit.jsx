@@ -9,6 +9,26 @@ function Fit() {
     return(
         <div className='f'>
             <div className="f-wrapper">
+                <div className="f-text">
+                    <div className="f-how-wrapper">
+                        <h2 className='f-how'>
+                            How to prepare and where to send?
+                        </h2>
+                    </div>
+
+                    <div className="f-wash-wrapper">
+                        <p className="f-wash">
+                            Wash or put things in order
+                        </p>
+
+                        <p className="f-wash-small">
+                            This will significantly reduce overhead costs, which mean we can spend more time on the development of the children from orphanages
+                        </p>
+                    </div>
+                </div>
+
+                <div className="f-shape"></div>
+
                 <h2 className="f-title">All fit in one bag?</h2>
 
                 <div className="f-btn-wrapper">
