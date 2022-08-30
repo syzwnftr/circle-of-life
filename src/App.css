@@ -3,3 +3,11 @@
 .app {
   font-family: 'Mulish', sans-serif;
 }
+
+@media screen and (min-width: 1440px) {
+  .app {
+    border: 1px solid red;
+    width: 1440px;
+    margin: auto;
+  }
+}
