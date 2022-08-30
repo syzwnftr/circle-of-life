@@ -42,3 +42,23 @@
 .t-bold {
     font-weight: bold;
 }
+
+@media screen and (min-width: 813px) {
+    .t {
+        margin: 150px 0;
+    }
+
+    .t-wrapper {
+        padding: 0 30px;
+    }
+
+    .t-title {
+        margin-bottom: 60px;
+    }
+    
+    .t-item-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
