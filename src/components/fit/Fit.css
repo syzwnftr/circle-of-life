@@ -6,6 +6,10 @@
     padding: 50px 18px;
 }
 
+.f-text {
+    display: none;
+}
+
 .f-title {
     font-weight: 700;
     font-size: 24px;
@@ -102,4 +106,54 @@
     /* outline: 1px solid black; */
     width: 150px;
     font-size: 15px;
+}
+
+.f-shape {
+    display: none;
+}
+
+@media screen and (min-width: 813px) {
+    .f-wrapper {
+        padding: 50px 50px;
+    }
+
+    .f-text {
+        /* outline: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 40px;
+        gap: 1rem;
+    }
+
+    .f-how-wrapper {
+        flex-basis: 50%;
+        
+    }
+
+    .f-how {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    .f-wash-wrapper {
+        flex-basis: 50%;
+    }
+
+    .f-wash {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .f-shape {
+        border: 1px solid black;
+        border-top-right-radius: 30px;
+        border-left: none;
+        border-bottom: none;
+        display: block;
+        width: 50%;
+        height: 100px;
+        margin-bottom: 30px;
+    }
 }
