@@ -36,7 +36,7 @@ function Process() {
                 </div>
             </div>
 
-            <div className="p-box">
+            <div className="p-box second">
                 <div className="p-img-wrapper">
                     <img src={Improve} alt="" className="p-img" />
                 </div> 
