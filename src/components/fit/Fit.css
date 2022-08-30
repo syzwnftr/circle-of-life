@@ -108,6 +108,10 @@
     font-size: 15px;
 }
 
+.f-box {
+    display: none;
+}
+
 .f-shape {
     display: none;
 }
@@ -120,7 +124,7 @@
     .f-text {
         /* outline: 1px solid black; */
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-start;
         margin-bottom: 40px;
         gap: 1rem;
@@ -146,6 +150,10 @@
         margin-bottom: 20px;
     }
 
+    .f-wash-small {
+        font-weight: 600;
+    }
+
     .f-shape {
         border: 1px solid black;
         border-top-right-radius: 30px;
@@ -156,4 +164,108 @@
         height: 100px;
         margin-bottom: 30px;
     }
+
+    .f-btn-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .f-btn {
+        width: 120px;
+        height: 60px;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .f-wrapper {
+        padding: 100px 0;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .f-how {
+        width: 300px;
+    }
+
+    .f-wash-wrapper > p {
+        font-size: 16px;
+    }
+
+    .f-item-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .f-box {
+        display: inline;
+    }
+
+    .f-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .f-btn-wrapper {
+        margin-bottom: 70px;
+    }
+
+    
+    .f-text {
+        justify-content: space-between;
+    }
+
+    .f-how-wrapper {
+        flex-basis: auto;
+    }
+
+    .f-wash-wrapper {
+        flex-basis: auto;
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .f-wrapper {
+        width: 1000px;
+    }
+
+    .f-wash-wrapper {
+        width: 500px;
+    }
+
+    .f-wash-small {
+        width: 400px;
+    }
+
+    .f-item-box {
+        justify-content: space-evenly;
+    }
+
+    .f-item-wrapper {
+        flex-basis: 50%;
+    }
+
+    .f-item {
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width:400px;
+        height: 130px;
+        border-radius: 20px;
+    }
+
+    .f-badge-wrapper {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    } 
+    
+    .f-badge.apple {
+        width: 130px;
+    }
+
+    .f-desc {
+        width: auto;
+        font-size: 15px;
+    }
+
 }
