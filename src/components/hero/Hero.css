@@ -186,7 +186,8 @@
 
 @media screen and (min-width: 1100px) {
     .h {
-        height: 85vh;    }
+        height: 85vh;    
+    }
 
     .h-text {
         width: 700px;
@@ -217,11 +218,12 @@
 
 @media screen and (min-width: 1200px) {
     .h {
-        height: 100vh;
+        height: 650px;
     }
+
     .h-img-wrapper {
         top: 150px;
-        right: 0;
+        right: 30px;
     }
 
     .h-img {
