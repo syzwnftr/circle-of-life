@@ -186,12 +186,9 @@
 
 @media screen and (min-width: 1100px) {
     .h {
-        height: 105vh;
-        outline: 1px solid red;
-    }
+        height: 85vh;    }
 
     .h-text {
-        /* outline: 1px solid black; */
         width: 700px;
     }
 
@@ -200,7 +197,6 @@
     }
 
     .h-img-wrapper {
-        /* outline: 1px solid black; */
         margin: 0;
         margin-bottom: 50px;
         position: absolute;
@@ -220,13 +216,16 @@
 
 
 @media screen and (min-width: 1200px) {
+    .h {
+        height: 100vh;
+    }
     .h-img-wrapper {
-        /* outline: 1px solid black; */
-        top: 180px;
+        top: 150px;
+        right: 0;
     }
 
     .h-img {
-        width: 75%;
+        width: 900px;
 
     }
 }
