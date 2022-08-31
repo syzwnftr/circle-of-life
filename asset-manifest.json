@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/circle-of-life/static/css/main.7386b0ca.css",
+    "main.js": "/circle-of-life/static/js/main.8546e733.js",
+    "static/media/hero.gif": "/circle-of-life/static/media/hero.95f6a1866b09f8ebe987.gif",
+    "static/media/improve.gif": "/circle-of-life/static/media/improve.e7f6b4f44e4b29cbca38.gif",
+    "static/media/take.gif": "/circle-of-life/static/media/take.abe9805d4cf38f981e1d.gif",
+    "static/media/send.gif": "/circle-of-life/static/media/send.083aef5f4667c322a2df.gif",
+    "static/media/kotak.png": "/circle-of-life/static/media/kotak.98e12183cd4c12a58db5.png",
+    "static/media/utensils.png": "/circle-of-life/static/media/utensils.e734ac76abb7e8d16ffd.png",
+    "index.html": "/circle-of-life/index.html",
+    "main.7386b0ca.css.map": "/circle-of-life/static/css/main.7386b0ca.css.map",
+    "main.8546e733.js.map": "/circle-of-life/static/js/main.8546e733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7386b0ca.css",
+    "static/js/main.8546e733.js"
+  ]
+}
