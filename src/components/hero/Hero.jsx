@@ -1,23 +1,32 @@
 import './Hero.css';
-import Twitter from '../../img/twitter.png';
-import Chat from '../../img/chat.png';
+import Twitter from '../../img/twitt.png';
+import LI from '../../img/linkedin.png';
+import IG from '../../img/ig.png';
 import hero from '../../img/hero.gif';
+import WA from '../../img/whatsapp.png';
+
 
 function Hero() {
     return (
         <div className='h'>
             <div className="h-header">
                 <h1 className='h-logo'>cirle of life.</h1>
+                
                 <div className="h-circle-wrapper">
-                    <p className="h-telno hide">+7 495018-37-45</p>
+                    <div className="h-circle hide">
+                        <img src={WA} alt="" className='h-icon' />
+                    </div>
+                    <p className='h-telno hide'>
+                        +7 495018-37-45
+                    </p>
                     <div className="h-circle">
                         <img src={Twitter} alt="" className='h-icon' />
                     </div>
                     <div className="h-circle">
-                        <img src={Chat} alt="" className='h-icon' />
+                        <img src={IG} alt="" className='h-icon ig' />
                     </div>
                     <div className="h-circle hide">
-                        <img src={Chat} alt="" className='h-icon' />
+                        <img src={LI} alt="" className='h-icon' />
                     </div>
                 </div>
             </div>
