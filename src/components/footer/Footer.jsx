@@ -1,6 +1,6 @@
 import './Footer.css';
 import WA from '../../img/whatsapp.png'; 
-import FB from '../../img/fb.png'; 
+import Twitter from '../../img/twitt.png';
 import IG from '../../img/ig.png'; 
 
 function Footer() {
@@ -26,7 +26,7 @@ function Footer() {
                     <h3 className="c-title second">Contact us at social network</h3>
 
                     <div className="c-info medsoc">
-                        <img src={FB} alt="" className="c-icon fb" />
+                        <img src={Twitter} alt="" className="c-icon" />
                         <img src={IG} alt="" className="c-icon" />
                         <img src={IG} alt="" className="c-icon" />
                     </div>
