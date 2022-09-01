@@ -2,6 +2,7 @@ import './Footer.css';
 import WA from '../../img/whatsapp.png'; 
 import Twitter from '../../img/twitt.png';
 import IG from '../../img/ig.png'; 
+import LI from '../../img/linkedin.png';
 
 function Footer() {
     return (
@@ -26,9 +27,15 @@ function Footer() {
                     <h3 className="c-title second">Contact us at social network</h3>
 
                     <div className="c-info medsoc">
-                        <img src={Twitter} alt="" className="c-icon" />
-                        <img src={IG} alt="" className="c-icon" />
-                        <img src={IG} alt="" className="c-icon" />
+                        <a href="https://twitter.com" className="c-medsoc" target="_blank" rel="noreferrer">
+                            <img src={Twitter} alt="" className="c-icon" />
+                        </a>
+                        <a href="https://instagram.com" className="c-medsoc" target="_blank" rel="noreferrer">
+                            <img src={IG} alt="" className="c-icon" />
+                        </a>
+                        <a href="https://linkedin.com" className="c-medsoc" target="_blank" rel="noreferrer">
+                            <img src={LI} alt="" className="c-icon" />
+                        </a>
                     </div>
                  </div> 
             </div>
