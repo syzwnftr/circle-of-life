@@ -36,8 +36,9 @@
 }
 
 .h-icon {
-    width: 17px;
-    height: 17px;
+    /* outline: 1px solid red; */
+    width: 18px;
+    height: 18px;
 }
 
 .h-text {
@@ -134,11 +135,7 @@
     .h-logo {
         font-size: 24px;
     }
-
-    /* .h-circle-wrapper {
-        outline: 1px solid black;
-    } */
-
+ 
     .h-circle {
         background-color: #ebe6e3;
     }
@@ -186,7 +183,14 @@
 
 @media screen and (min-width: 1100px) {
     .h {
-        height: 85vh;    
+        height: 120vh;    
+    }
+
+    .h-telno.hide {
+        display: inline;
+        margin-right: 40px;
+        color: #282724;
+        font-weight: bold;
     }
 
     .h-text {
