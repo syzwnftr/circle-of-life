@@ -4,6 +4,7 @@ import Benefit from './components/benefit/Benefit';
 import Fit from './components/fit/Fit';
 import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
+import Merit from './components/merit/Merit';
 import Process from './components/process/Process';
 import Stats from './components/stats/Stats';
 import Thing from './components/things/Thing';
@@ -17,6 +18,7 @@ function App() {
       <Process />
       <Benefit />
       <Thing />
+      <Merit />
       <Fit />
       <Footer />
     </div>
