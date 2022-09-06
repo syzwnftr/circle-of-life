@@ -5,8 +5,23 @@ import IG from '../../img/ig.png';
 import hero from '../../img/hero.gif';
 import WA from '../../img/whatsapp.png';
 
+import { useRef, useEffect } from 'react';
+
+import gsap from 'gsap';
+import { SlowMo } from "gsap/EasePack";
+
+gsap.registerPlugin(SlowMo);
 
 function Hero() {
+     let hDescEl = useRef(null);
+    //  let word = "Give away the things you don’t need anymore and start the circle of life";
+     
+     useEffect(() => {
+        gsap.fromTo(hDescEl, {opacity: 0}, {opacity: 1, delay: 0.5})
+
+     }, [])
+
+
     return (
         <div className='h'>
             <div className="h-header">
@@ -32,7 +47,7 @@ function Hero() {
             </div>
 
             <div className="h-text">
-                <h2 className="h-desc">Give away the things you don’t need anymore and start the circle of life</h2>
+                <h2 className="h-desc" ref={el => hDescEl = el}>Give away the things you don’t need anymore and start the circle of life</h2>
                 <button className="h-btn">Start the circle</button>
             </div>
 
