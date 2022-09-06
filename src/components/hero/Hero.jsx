@@ -17,7 +17,7 @@ function Hero() {
     //  let word = "Give away the things you don’t need anymore and start the circle of life";
      
      useEffect(() => {
-        gsap.fromTo(hDescEl, {opacity: 0}, {opacity: 1, delay: 0.5})
+        gsap.fromTo(hDescEl, {opacity: 0}, {opacity: 1, delay: 0.75})
 
      }, [])
 
