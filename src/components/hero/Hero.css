@@ -49,10 +49,35 @@
 }
 
 .h-desc {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 150%;
     font-weight: 600;
     color: #282724;
+}
+
+.h-desc-content {
+    display: inline-block;
+    opacity: 0;
+    animation: revealText 2s 1s forwards;
+}
+
+.content-second {
+    animation-delay: 1.24s;
+}
+
+.content-third {
+    animation-delay: 1.334s;
+}
+
+@keyframes revealText {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .h-btn {
