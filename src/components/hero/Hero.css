@@ -1,11 +1,9 @@
 .h {
-    /* outline: 1px solid black; */
     position: relative;
     overflow: hidden;
 }
 
 .h-header {
-    /* outline: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +16,6 @@
 }
 
 .h-circle-wrapper {
-    /* outline: 1px solid black; */
     display: flex;
     align-items: center;
 }
@@ -36,13 +33,11 @@
 }
 
 .h-icon {
-    /* outline: 1px solid red; */
     width: 18px;
     height: 18px;
 }
 
 .h-text {
-    /* outline: 1px solid black; */
     width: 306px;
     margin-top: 30px;
     padding: 0 18px;
@@ -87,7 +82,6 @@
 }
 
 .h-img {
-    /* outline: 1px solid black; */
     width: 120%;
     margin-top: 20px;
     opacity: 0;
@@ -116,7 +110,6 @@
     }
 
     .h-text {
-        /* outline: 1px solid black; */
         width: 350px;
     }
 
@@ -135,7 +128,6 @@
     }
 
     .h-text {
-        /* outline: 1px solid black; */
         width: 380px;
         padding: 0 30px;
     }
@@ -156,7 +148,6 @@
     }
 
     .h-text {
-        /* outline: 1px solid black; */
         width: 480px;
         padding: 0 50px;
     }
@@ -185,7 +176,6 @@
     }
 
     .h-text {
-        /* outline: 1px solid black; */
         width: 500px;
         padding: 0 100px;
     }
@@ -196,7 +186,6 @@
     }
 
     .h-img-wrapper {
-        /* outline: 1px solid black; */
         display: flex;
         justify-content: flex-end;
         align-items: center;
