@@ -23,7 +23,6 @@
 }
 
 .t-item {
-    /* outline: 1px solid black; */
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
@@ -46,6 +45,7 @@
 @media screen and (min-width: 813px) {
     .t {
         margin: 150px 0;
+        margin-bottom: 100px;
     }
 
     .t-wrapper {
